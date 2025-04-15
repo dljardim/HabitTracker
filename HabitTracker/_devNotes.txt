@@ -1,0 +1,39 @@
+habit tracking app that lets users:
+Create habits
+Mark them as complete per day
+Track streaks
+View progress
+
+🧱 Chunk 1: Project Setup + Display Habit List
+
+🎯 Functional Requirements
+User sees a list of habits on the main screen.
+Each habit displays:
+Title (e.g., "Drink Water")
+Number of times completed (optional for now)
+Show a message like “No habits yet” if the list is empty.
+🛠️ Technical Requirements
+Set up a SwiftUI app project in Xcode.
+Define a Habit model (simple struct for now).
+Use @State to store a temporary list of habits.
+Build a List or ScrollView UI for displaying habits.
+
+
+📦 Deliverables for Chunk 1
+
+You should complete:
+A functioning SwiftUI view with a static or in-memory habit list.
+A nice list UI that shows habit names (hardcoded or dynamic is fine).
+Message for when there are no habits.
+
+
+
+
+model
+
+Habit
+
+HabbitUUID
+Title
+TimesCompleted
+
